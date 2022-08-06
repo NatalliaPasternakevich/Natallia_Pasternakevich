@@ -1,0 +1,23 @@
+body {
+    background: rgb(141, 215, 136);
+}
+h1 {
+    color: rgb(180, 18, 50);
+       font-style: unset;
+       font-weight: 500px;
+     }
+     h2 {
+      font-size: medium;
+    color: rgb(26, 52, 197);
+    text-decoration: solid;
+     }
+     p{
+    font-size: medium;
+    color: rgb(226, 162, 25);
+    flex-grow: initial;
+  }
+  pre {
+    text-align: inherit;
+    color: rgb(207, 93, 163);
+    font-style: oblique;
+  }

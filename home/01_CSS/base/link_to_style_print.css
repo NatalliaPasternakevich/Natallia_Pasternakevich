@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(109, 16, 115);
+       font-style: unset;
+     }
+     h2 {
+      font-size: medium;
+    color: rgb(203, 218, 36);
+    flex-grow: initial;
+     }
+     p{
+    font-size: medium;
+    color: blue;
+    flex-grow: initial;
+  }
+  pre {
+    text-align: inherit;
+    color: rgb(43, 226, 70);
+    font-style: oblique;
+  }
