@@ -1,0 +1,12 @@
+div {
+    text-align: right;
+}
+h3 {
+    font-family: 'Marck Script', cursive;
+    text-decoration: underline;
+}
+pre {
+    font-family: 'Marck Script', cursive;
+line-height: 30px;
+    color:rgba(0,0,0,0.5)
+}
