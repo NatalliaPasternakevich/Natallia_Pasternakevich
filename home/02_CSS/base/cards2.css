@@ -1,0 +1,43 @@
+.icon {
+    width: 140px;
+    height: 200px;
+     background-image:url(cards.7e0a18f0.png);
+     background-position: 140px 985px;
+}
+.icon2 {
+    width: 140px;
+    height: 200px;
+     background-image:url(cards.7e0a18f0.png);
+     background-position: 0px 795px;
+     position: relative;
+     bottom: 209px;
+     right: 0px;
+     
+}
+.icon3 {
+    width: 140px;
+    height: 200px;
+     background-image:url(cards.7e0a18f0.png);
+     background-position: 280px 1187px;
+     position: relative;
+     bottom: 402px;
+     right: 0px;
+}
+.icon4 {
+    width: 140px;
+    height: 200px;
+     background-image:url(cards.7e0a18f0.png);
+     background-position: -143px 390px; 
+     position: relative;
+     bottom: 601px;
+     right: 0px;
+}
+.icon5 {
+    width: 140px;
+    height: 200px;
+     background-image:url(cards.7e0a18f0.png);
+     background-position: -287px 198px;
+     position: relative;
+     bottom: 807px;
+     right: 0px;
+}
