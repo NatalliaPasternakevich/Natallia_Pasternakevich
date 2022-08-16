@@ -1,0 +1,26 @@
+.main {
+    background-color: #dcdcdc;
+}
+.leftBlock {
+    width: 15em;
+    background-color: #cdcdcd;
+    color: black;
+    float: left;
+
+}
+.centerBlock {
+    background-color: #abacac;
+    color: black;
+    margin-bottom: 0.2em;
+    padding-top: 0.1em;
+    overflow: auto;
+    
+}
+.footerBlock {
+    background-color: #cdcdcd;
+    color: black;
+    clear: both;
+}
+img {
+float: right;
+}
