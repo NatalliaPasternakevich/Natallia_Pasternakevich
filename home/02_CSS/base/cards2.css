@@ -11,7 +11,7 @@
      background-position: 0px 795px;
      position: relative;
      bottom: 209px;
-     right: 0px;
+     right: -48px;
      
 }
 .icon3 {
@@ -21,7 +21,7 @@
      background-position: 280px 1187px;
      position: relative;
      bottom: 402px;
-     right: 0px;
+     right: -95px;
 }
 .icon4 {
     width: 140px;
@@ -30,7 +30,7 @@
      background-position: -143px 390px; 
      position: relative;
      bottom: 601px;
-     right: 0px;
+     right: -143px;
 }
 .icon5 {
     width: 140px;
@@ -39,5 +39,5 @@
      background-position: -287px 198px;
      position: relative;
      bottom: 807px;
-     right: 0px;
+     right: -200px;
 }
