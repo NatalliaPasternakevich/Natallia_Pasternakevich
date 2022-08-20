@@ -6,20 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {margin: 15px;}
         p{
+            text-indent: 17px;
             border: 1px solid;
             border-radius: 0px 21px 0px 24px;
-            padding: 15px 15px;
-            margin: 0px;
+            padding: 17px 2px;
+            margin: 1px;
         }
         .doc{ 
             width: 700px;
         }
-      
-        .lux {
-            float: left;
+        .lux div{
+            display: block;
+            padding: 7px 15px;
+            margin: 0px;
+            
+        }
+        span img[src*=img]{
+            width: 53px;
+            right: -50px;
+            top: -20px;
+            position: inherit;
+            margin: -13px;
+            padding-right: initial;
+        }
 
-
+        .link1 span{
+            position: absolute;
+            opacity: 0;
+            transition: .5s;
+           }
+         
+           
+        .link1:hover span{
+            opacity: 1;
+        }
+        .link2 span{
+            position: absolute;
+            opacity: 0;
+            transition: .5s;
+           }
+         
+           
+        .link2:hover span{
+            opacity: 1;
+        }
+        .link3 span{
+            position: absolute;
+            opacity: 0;
+            transition: .5s;
+           }
+         
+           
+        .link3:hover span{
+            opacity: 1;
         }
     </style>
 </head>
@@ -27,37 +68,31 @@
     <h1>Формат файлов.</h1>
 <div class="doc">
     <p>
-       
         ..DOC или .doc (от англ. <img src="стрелка.png"> <a href="#">@document</a>) - расширение имени файла, используемое для файлов,
         представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для
         обозначения простых текстовых файлов без формирования, однако позже стало
         использоваться для двоичных форматов с разметкой. <br>
-        <a href="#">Документ MS Word </a> <img src="ворд.jpeg" >
-    
+        <a href="#">Документ MS Word </a> <img src="img3.jpeg" >
     </p>
     <p>
-
     Portable Document Format (<img src="стрелка.png"> <a href="#">@PDF</a>) - межплатформенный формат электронных документов,
     разработанный фирмой Adobe Systems с использованием ряда возможностей языка
     Postscript. <br>
-    <a href="#">Документ PDF</a> <img src="пдф.png" >
-
+   <a href="#"> Документ PDF <img src="img3.jpeg" ></a>
     </p>
     <p>
-
     ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате
     обычно имеет расширение <img src="стрелка.png"> <a href="#">zip</a> и хранит в сжатом или несжатом виде один или несколько
     файлов, которое можно из него извлечь путем распаковки с помощью специальной
     программы. <br>
-    <a href="#">Архив</a> <img src="картинка.gif" >
-
+    <a href="#">Архив <img src="img1.gif" ></a>
     </p>
 </div>
 <h3>Это список файлов</h3>
 <div class="lux">
-<img src="фаил.jpeg"><a href="#"> Документ MS Word</a><br>
-<img src="фаил.jpeg"><a href="#">Документ PDF</a><br>
-<img src="фаил.jpeg"><a href="#">Архив</a><br>
-</div>
+    <div><img  src="file.jpeg"><a href="#" class="link1"> Документ MS Word <span><img src="img3.jpeg" ></span></a></div>
+    <div><img  src="file.jpeg"><a href="#" class="link2">Документ PDF<span><img src="img2.png" ></span></a> </div>
+    <div><img src="file.jpeg"><a href="#" class="link3">Архив<span><img src="img1.gif" ></span></a></div>
+ </div>
 </body>
 </html>
