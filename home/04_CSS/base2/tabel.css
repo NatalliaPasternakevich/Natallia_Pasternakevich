@@ -1,0 +1,37 @@
+body {
+    width: 93%;
+    margin: 10px ;
+}
+table {
+    width: 100%;
+}
+.date:not(tr td) {
+   border-style: hidden; 
+}
+.date {
+    background-color: #666161;
+}
+tr th:nth-child(1n+2) {
+    text-align: justify;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(206, 206, 206)
+}
+tr td:first-child {
+   font-weight: bold; 
+   width: 221px;
+}
+tr td {
+    border-bottom-style:dotted;
+    border-right-style: dotted;
+}
+tr td:nth-child(6) {
+    border-right-style: hidden;
+}
+tbody tr:hover {
+    background: #f3bd48; 
+    color: #fff; 
+}
+figcaption {
+    margin-left: 255px;
+}
