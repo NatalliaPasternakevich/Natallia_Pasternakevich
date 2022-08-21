@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 646px;
+    height: 646px;
+    margin: 15px auto;
+    border: 7px solid black;
+}
+td {
+    width: 77px; 
+    height: 77px;
+    float: left;
+    
+}
+.chess tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+   
+}
+.chess tr:nth-child(even) td:nth-child(even) {
+    background: black;
+}
